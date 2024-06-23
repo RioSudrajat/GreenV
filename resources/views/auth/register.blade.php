@@ -7,7 +7,7 @@
     @vite('resources/css/app.css')
     <title>Register</title>
 </head>
-<body class="bg-gradient-to-r from-blue-400 to-purple-500 flex items-center justify-center min-h-screen">
+<body class=" flex items-center justify-center min-h-screen bg-cover bg-center"style="background-image: url('{{ asset('user/images/loginbg.jpeg') }}');">
     <div class="bg-white rounded-lg shadow-lg p-8 max-w-md w-full">
         <h2 class="text-2xl font-bold text-center text-gray-800 mb-6">Create an Account</h2>
         <form id="registrationForm" action="{{ route('auth.register.proses') }}" method="POST" novalidate>

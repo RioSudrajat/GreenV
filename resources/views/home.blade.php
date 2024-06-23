@@ -157,10 +157,10 @@
                <div class="shadow-md rounded-lg border border-[#F7F7F7] p-8 mb-4" data-aos="fade-left">
                 <p class="text-2xl font-medium mb-12 text-white text-center">“Back End”</p>
                 <div class="flex flex-col items-center">
-                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/bg1.jpg') }}');"></div>
+                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/yoo.png') }}');"></div>
                     <div class="text-center">
-                        <p class="text-lg font-medium text-white">Nama : Ratu Quratul Aini</p>
-                        <p class="text-lg text-white">NIM : 1237050084</p>
+                        <p class="text-lg font-medium text-white">Nama : Rio Ferdana Sudrajat</p>
+                        <p class="text-lg text-white">NIM : 1237050057</p>
                     </div>
                 </div>
             </div>
@@ -170,10 +170,10 @@
               <div class="shadow-md rounded-lg border border-[#F7F7F7] p-8 mb-4" data-aos="fade-right">
                 <p class="text-2xl font-medium mb-12 text-white text-center">“UI/UX”</p>
                 <div class="flex flex-col items-center">
-                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/bg1.png') }}');"></div>
+                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/syd.jpg') }}');"></div>
                     <div class="text-center">
-                        <p class="text-lg font-medium text-white">Nama : Ratu Quratul Aini</p>
-                        <p class="text-lg text-white">NIM : 1237050084</p>
+                        <p class="text-lg font-medium text-white">Nama : Sayyid Maula Rafsanjani</p>
+                        <p class="text-lg text-white">NIM : 1237050126</p>
                     </div>
                 </div>
             </div>
@@ -183,10 +183,10 @@
               <div class="shadow-md rounded-lg border border-[#F7F7F7] p-8 mb-4" data-aos="zoom-out">
                 <p class="text-2xl font-medium mb-12 text-white text-center">“Front End”</p>
                 <div class="flex flex-col items-center">
-                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/bg1.png') }}');"></div>
+                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/rk.jpg') }}');"></div>
                     <div class="text-center">
-                        <p class="text-lg font-medium text-white">Nama : Ratu Quratul Aini</p>
-                        <p class="text-lg text-white">NIM : 1237050084</p>
+                        <p class="text-lg font-medium text-white">Nama : Raka Alpiansyah</p>
+                        <p class="text-lg text-white">NIM : 1237050112</p>
                     </div>
                 </div>
             </div>
@@ -196,10 +196,10 @@
                <div class="shadow-md rounded-lg border border-[#F7F7F7] p-8 mb-4" data-aos="fade-left">
                 <p class="text-2xl font-medium mb-12 text-white text-center">“Back End”</p>
                 <div class="flex flex-col items-center">
-                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/bg1.png') }}');"></div>
+                    <div class="w-32 h-32 bg-cover bg-center rounded-full mb-4" style="background-image: url('{{ asset('user/images/yg.jpg') }}');"></div>
                     <div class="text-center">
-                        <p class="text-lg font-medium text-white">Nama : Ratu Quratul Aini</p>
-                        <p class="text-lg text-white">NIM : 1237050084</p>
+                        <p class="text-lg font-medium text-white">Nama : YOGA DWI PRAYOGA</p>
+                        <p class="text-lg text-white">NIM : 1237050141</p>
                     </div>
                 </div>
             </div>

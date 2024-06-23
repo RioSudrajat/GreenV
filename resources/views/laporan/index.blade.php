@@ -102,8 +102,9 @@
                             <option value="" disabled selected>Pilih jenis kejadian</option>
                             <!-- Add more options here -->
                                <option value="membuang sampah sembarangan">membuang sampah sembarangan</option>
-                               <option value="cat">Cat</option>
-                               <option value="hamster">Hamster</option>
+                               <option value="pantai dipenuhi sampah">pantai dipenuhi sampah</option>
+                               <option value="membuang limbah sembarangan">membuang limbah sembarangan</option>
+                               <option value="penggundulan hutan">penggundulan hutan</option>
                         </select>
                     </div>
                     <div class="mb-4">
