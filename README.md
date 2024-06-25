@@ -99,8 +99,11 @@ DB_DATABASE=nama_database
 DB_USERNAME=username_database
 DB_PASSWORD=password_database
 </code></pre>
-
+## key generate
+<pre><code>
+php artisan key:generate</code></pre>
 ## konfigurasi laravel sanctumn
+
 <pre><code>php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"</code></pre>
 
 ## migrasi database
