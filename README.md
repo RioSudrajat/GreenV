@@ -1,3 +1,9 @@
+# GrenV
+
+GreenV (Green Environment) adalah sebuah web blog edukasi tentang lingkungan. Tujuan dari pembuatan web ini adalah memberikan sosialisasi tentang berbagai isu lingkungan, seperti sampah plastik, pemanasan global, dan pengelolaan sumber daya alam. Tidak hanya itu, web ini juga menyediakan platform untuk masyarakat yang peduli pada lingkungan untuk menyampaikan pengaduan dan laporan terkait masalah lingkungan di sekitar mereka.
+
+Teknologi yang digunakan dalam pengembangan GreenV mencakup Laravel 11 untuk framework backend, Tailwind CSS untuk styling, dan Alpine.js untuk interaktivitas frontend. Selain itu, Laravel Sanctum digunakan untuk perlindungan otentikasi, memastikan keamanan dan privasi data pengguna. Dengan kombinasi teknologi tersebut, GreenV diharapkan dapat menjadi sumber informasi yang bermanfaat dan alat yang efektif bagi masyarakat dalam upaya pelestarian lingkungan.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -67,4 +73,40 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## clone reposytory
 
-git clone https://github.com/RioSudrajat/GreenV.git
+<pre><code>git clone https://github.com/RioSudrajat/GreenV.git</code></pre>
+
+## masuk ke directori
+
+<pre><code>cd GreenV</code></pre>
+
+## install dependencies
+
+<pre><code>composer install</code></pre>
+
+## install laravel sanctumn
+
+<pre><code>composer require laravel/sanctum</code></pre>
+
+## configurasi file .env
+Salin file .env.example menjadi .env:
+<pre><code> cp .env.example .env</code></pre>
+Buka file .env yang baru dan atur konfigurasi database sesuai dengan lingkungan Anda:
+<pre><code> 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nama_database
+DB_USERNAME=username_database
+DB_PASSWORD=password_database
+</code></pre>
+
+## konfigurasi laravel sanctumn
+<pre><code>php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"</code></pre>
+
+## migrasi database
+<pre><code>php artisan migrate</code></pre>
+
+## memulai aplikasi
+<pre><code>php artisan server</code></pre>
+untuk tailwind:
+<pre><code>npm run dev</code></pre>
